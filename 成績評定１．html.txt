@@ -1,0 +1,24 @@
+let word = "bottles";
+let count = 99;
+while (count > 0) {
+    if (count == 1){
+        word = "bottle"
+    }
+     console.log(count + " " + word + " of beer on the wall");
+     console.log(count + " " + word + " of beer,");
+     console.log("Take one down, pass it around,");
+     count = count -1;
+     if (count > 0) {
+         if (count == 1){
+            word = "bottle"
+         }
+         console.log(count + " " +word + " of beer on the wall.");
+     } else {
+         if (count < 1){
+            word = "bottle"
+         }
+         console.log("No more " + word + " of beer on the wall. ");
+         console.log("No moew " + word + " bottles of beer.");
+         console.log("Go to the store buy some more" + "99 bottles of beer on the wall.");
+    }
+}
